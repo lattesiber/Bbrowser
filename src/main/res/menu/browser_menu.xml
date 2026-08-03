@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_shield"
+        android:title="Shield"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_incognito"
+        android:title="Incognito Tab"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_tracker_block"
+        android:title="Tracker Blocking"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_settings"
+        android:title="Settings"
+        app:showAsAction="never">
+        <!-- Submenu for Settings -->
+        <menu>
+            <item android:id="@+id/set_cookies" android:title="Cookies" />
+            <item android:id="@+id/set_history" android:title="History" />
+            <item android:id="@+id/set_personalize" android:title="Personalization" />
+            <item android:id="@+id/set_engine" android:title="Search Engine" />
+            <item android:id="@+id/set_about" android:title="About" />
+        </menu>
+    </item>
+</menu>
